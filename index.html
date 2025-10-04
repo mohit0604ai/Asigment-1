@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="profile.jpg">
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header id="home">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h1>Welcome to My Portfolio</h1>
+      <img src="MOHIT.img" alt="Profile picture of MOHIT" width="180" height="200">
+      <p>Hello, I'm MOHIT, a passionate web developer eager to create accessible and user-friendly websites.</p>
+    </section>
+  </header>
+
+  <!-- About Section -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated developer with a love for building interactive and functional web experiences. 
+        My interests include front-end development, accessibility, and creating smooth user interfaces.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <article>
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio showcasing my skills and work.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Todo List App</h3>
+            <p>A simple yet effective app to manage daily tasks.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Blog Platform</h3>
+            <p>A blogging platform with user authentication and rich text editing.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills Section with Table -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <table border="1" aria-label="Skills Table">
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section with Accessible Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Send me a message</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Write your message here" required></textarea><br><br>
+
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MOHIT. All rights reserved.</p>
+  </footer>
+</body>
+</html>
